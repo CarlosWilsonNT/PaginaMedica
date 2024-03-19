@@ -97,7 +97,6 @@ const CarregarExames = async () => {
 };
 
 useEffect(() => {
-  // Carrega os exames ao iniciar o componente
   CarregarExames();
 }, []);
 
