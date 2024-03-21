@@ -81,6 +81,7 @@ const NovoCadrastro = () => {
     console.error('Erro ao enviar ficha de Cadrastro:', error);
     setMensagem('Erro ao enviar a ficha de Cadrastro. Tente novamente.');
   }
+  
 };
 
     return (
