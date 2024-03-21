@@ -1,5 +1,3 @@
-
-
 body {
   background-color: rgb(216, 217, 228);
   margin: 0;
@@ -32,10 +30,10 @@ menu {
 }
 
 .menu-item {
-  margin-left: 40px;
+  margin-left: 8px;
   color: #163e71;
   cursor: pointer;
-  font-size: 1.1em;
+  font-size: 1.0em;
 }
 
 .menu-item:hover {
@@ -67,7 +65,7 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 1200px;
+  margin-top: 1300px;
 }
 
 .ficha-container {
