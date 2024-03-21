@@ -60,6 +60,7 @@ const App = () => {
               <Route path="/cadrastro" element={<NovoCadrastro />} />
               <Route path="/TabelaExames" element={<TabelaExames />} />
             </Routes>
+            
           </div>
         </div>
       </div>
