@@ -4,7 +4,7 @@ import { Button } from 'react-bootstrap';
 import './App.css';
 import ExamePage from './novoExame';
 import NovoCadrastro from './cadrastro';
-import TabelaExames from './TabelaExames';
+import TabelaExames from './TabelaExames'; // Corrigindo o nome do componente importado
 
 const App = () => {
   const [selectedFile, setSelectedFile] = useState(null);
@@ -43,7 +43,7 @@ const App = () => {
             </Button>
 
             <Button className="botao">
-              <Link to="/TabelaExames">Lista da Pacientes</Link>  
+              <Link to="/TabelaExames">Lista de Pacientes</Link>  
             </Button>
 
             <Button className="botao">
