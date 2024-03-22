@@ -7,6 +7,7 @@ function TabelaPaciente() {
     { nome: 'Maria', dataNascimento: '15/05/1985', cpf: '222.333.444-55' },
     { nome: 'Pedro', dataNascimento: '20/10/2000', cpf: '333.444.555-66' }
   ]);
+  
   const [novoPaciente, setNovoPaciente] = useState({ nome: '', dataNascimento: '', cpf: '' });
 
   const handleChange = (event) => {
